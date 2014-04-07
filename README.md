@@ -27,7 +27,7 @@ Build Your Own
 Network protocol
 ----------------
 
-Here's an overview of the network protocol that is used to communicate between the two applications, as posted by [https://github.com/IMAGINARY/FormulaMorph](IMAGINARY). FormulaMorph can also be controlled via the network. It acts as a client that connects to the server and port given in the file [settings.properties](settings.properties). The protocol itself is best explained using an example session.
+Here's an overview of the network protocol that is used to communicate between the two applications, as posted by [IMAGINARY](http://imaginary.github.io/FormulaMorph/). FormulaMorph can also be controlled via the network. It acts as a client that connects to the server and port given in the file [settings.properties](settings.properties). The protocol itself is best explained using an example session.
 
 ```
 # a comment
