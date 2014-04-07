@@ -3,7 +3,7 @@ FormulaMorph Hardware Interface
 
 This software connects the physical inputs of the Formula Morph installation to the visualization. The hardware includes 12 x 360 rotrary encoders, 1 joystick, and outputs to 12 controllable LED strip lights. This Java software connects all the hardware inputs (mostly Phidgets) to other piece of software, also in Java, that drives the visualization.
 
-![FormulaMorph Hardware Interface screen shot](https://github.com/ahrv/FormulaMorph/blob/master/screenshot.png)
+![FormulaMorph Hardware Interface screen shot](https://raw.githubusercontent.com/ahrv/FormulaMorph/master/screenshot.png)
 
 By using a socket connection, we were able to develop each part of the installation seperately, and in different countries.
 
