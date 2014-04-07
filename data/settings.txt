@@ -1,0 +1,4 @@
+#Formula Morph Settings
+reverseScroll,1
+innerSensitivity,5
+outerSensitivity,36
