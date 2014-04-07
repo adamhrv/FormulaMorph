@@ -1,11 +1,9 @@
 FormulaMorph Hardware Interface
 ============
 
-This software connects the physical inputs of the Formula Morph installation to the visualization. The hardware includes 12 x 360 rotrary encoders, 1 joystick, and outputs to 12 controllable LED strip lights. This Java software connects all the hardware inputs (mostly Phidgets) to other piece of software, also in Java, that drives the visualization.
+This software connects the physical inputs of the MoMATH Formula Morph installation to the visualization. The hardware includes 15 x 360 rotrary encoder wheels, 1 joystick, 2 momentary buttons, and outputs to 12 controllable LED strip lights. This Java applications connects all the hardware inputs (mostly Phidgets) to the visualization software, also in Java, that creates the visualization.
 
 ![FormulaMorph Hardware Interface screen shot](https://raw.githubusercontent.com/ahrv/FormulaMorph/master/screenshot.png)
-
-By using a socket connection, we were able to develop each part of the installation seperately, and in different countries.
 
 Usage
 -----
@@ -18,16 +16,12 @@ To export this project as a runnable .jar, from Eclipse:
 
 Build Your Own
 -----
-
-1. Build your own combination of [Phidgets](http://www.phidgets.com/) together with [Link to AH's Phidget controller (not yet online)]. This has been used at the MoMath NYC:
-   ![FormulaMorph exhibit at the MoMath](https://raw.github.com/IMAGINARY/FormulaMorph/gh-pages/images/FormulaMorphAtMoMath.jpg)
-2. Use whatever input devices you like and communicate with FormulaMorph via the simple [network protocol](#network-protocol) defined below. This requires to implement your own software layer which abstracts from the physical devices. You don't need to modify the FormulaMorph soruce code.
-3. Add support for other devices directly into the ForumulaMorph code.
+Follow the guide on ![IMAGINARY'S post](https://raw.github.com/IMAGINARY/FormulaMorph/gh-pages/images/FormulaMorphAtMoMath.jpg) for how to build your own version of this installation. Phidgets can be purchased from [Phidgets.com](http://www.phidgets.com/).
 
 Network protocol
 ----------------
 
-Here's an overview of the network protocol that is used to communicate between the two applications, as posted by [IMAGINARY](http://imaginary.github.io/FormulaMorph/). FormulaMorph can also be controlled via the network. It acts as a client that connects to the server and port given in the file [settings.properties](settings.properties). The protocol itself is best explained using an example session.
+Here's an overview of the network protocol that is used to communicate between the two applications, as posted by [IMAGINARY](http://imaginary.github.io/FormulaMorph/). FormulaMorph can also be controlled via the network. The protocol itself is best explained using an example session.
 
 ```
 # a comment
@@ -81,7 +75,7 @@ Dependencies
 
 You will need to import the following .jars into your workspace.
 core.jar from Processing
-net.jar from Processing)
+net.jar from Processing
 phidget21.jar from [http://www.phidgets.com/](Phidget's) website
 
 Contribute & Collaborate
@@ -91,25 +85,12 @@ FormulaMorph is part of [IMAGINARY](http://www.imaginary.org) by the [Mathematis
 
 The design of the program was done in collaboration with [Moey Inc](http://moeyinc.com/), the company who also produced the hardware and hardware-software connection of the first exhibit.
 
-If you are interested in showing FormulaMorph at your museum or exhibition, you may [contact us and ask for support](http://http://www.imaginary.org/contact).
+If you are interested in showing FormulaMorph at your museum or exhibition, [contact IMAGINARY and ask for support](http://http://www.imaginary.org/contact).
 
-If you are interested in custom software/hardware development for you installation contact [my studio](http://ahprojects.com/about).
+If you are interested in custom software/hardware development for you installation contact [Adam Harvey's studio in Brooklyn](http://ahprojects.com/about).
 
+MoMATH Museum NYC
+------------------------
 
-
-Formula Morph Java app
-
-FormulaMorph.app is a middleware GUI app to connect the Phidget hardware to the Java Surfer MoMath display over a socket connection
-
-This app makes use of the following .jar files which must be linked to as external jars when compiling.
-
-
-
-
-To import this project, in Eclipse:
-- select File > import
-- select "Existing Project"
-- make sure the FormulaMorph.zip file is expaned
-- select the root of this directory
-  
+If you are in NYC you can see this very same code running on the Formula Morph installation. Enjoy.
  
