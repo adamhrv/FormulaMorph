@@ -14,9 +14,13 @@ Usage
 
 To run this software, import the class files into Eclipse and 'Run as Application'. The main class is "FormulaMorph.java"
 To export this project as a runnable .jar, from Eclipse:
-- select FormulaMorph.java from the formulaMorph.app package
-- right-click and select "export"
-- select "Java > Runnable Jar"
+
+1. select FormulaMorph.java from the formulaMorph.app package
+
+2. right-click and select "export"
+
+3. select "Java > Runnable Jar"
+
 
 Build Your Own
 -----
