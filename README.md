@@ -4,6 +4,10 @@ FormulaMorph Hardware Interface
 This software connects the physical inputs of the MoMATH Formula Morph installation to the visualization. The hardware includes 15 x 360 rotrary encoder wheels, 1 joystick, 2 momentary buttons, and outputs to 12 controllable LED strip lights. This Java applications connects all the hardware inputs (mostly Phidgets) to the visualization software, also in Java, that creates the visualization.
 
 ![FormulaMorph Hardware Interface screen shot](https://raw.githubusercontent.com/ahrv/FormulaMorph/master/screenshot.png)
+Screenshot of hardware interface software
+
+![IMAGINARY'S post](https://raw.github.com/IMAGINARY/FormulaMorph/gh-pages/images/FormulaMorphAtMoMath.jpg)
+Formular Morph installation at MoMATH NYC
 
 Usage
 -----
@@ -16,7 +20,8 @@ To export this project as a runnable .jar, from Eclipse:
 
 Build Your Own
 -----
-Follow the guide on ![IMAGINARY'S post](https://raw.github.com/IMAGINARY/FormulaMorph/gh-pages/images/FormulaMorphAtMoMath.jpg) for how to build your own version of this installation. Phidgets can be purchased from [Phidgets.com](http://www.phidgets.com/).
+Follow the guide on [IMAGINARY's post](http://imaginary.github.io/FormulaMorph/) for how to build your own version of this installation. Phidgets can be purchased from [Phidgets.com](http://www.phidgets.com/).
+
 
 Network protocol
 ----------------
